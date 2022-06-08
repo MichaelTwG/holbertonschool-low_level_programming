@@ -23,17 +23,17 @@ int main(void)
 					num4 = num0 + num1 + num2 + num3;
 					if (num4 == 0)
 					{
-						continue;
-					}
-					putchar(num0 + '0');
-					putchar(num1 + '0');
-					putchar(' ');
-					putchar(num2 + '0');
-					putchar(num3 + '0');
-					if (num4 != 35)
-					{
-						putchar(',');
+					
+						putchar(num0 + '0');
+						putchar(num1 + '0');
 						putchar(' ');
+						putchar(num2 + '0');
+						putchar(num3 + '0');
+						if (num4 != 35)
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
