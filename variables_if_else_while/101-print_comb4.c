@@ -18,6 +18,7 @@ int main(void)
 			{
 				putchar(number + '0');
 				putchar(number_2 + '0');
+				putchar(number_3 + '0');
 				if (number != 7)
 				{
 					putchar(',');
