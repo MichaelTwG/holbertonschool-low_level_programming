@@ -11,8 +11,12 @@ int main(void)
 	for (number = 48; number <= 57; number++)
 	{
 		putchar(number);
-		putchar(44); /* coma "," */
-		putchar(32); /* espacio en blanco " " */
+		
+		if (number != 57)
+		{	
+			putchar(44); /* coma "," */
+			putchar(32); /* espacio en blanco " " */
+		}
 	}
 	putchar(10);
 	return (0);
