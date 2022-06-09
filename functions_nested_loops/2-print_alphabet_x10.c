@@ -5,9 +5,10 @@
  * Return: void
  * @veces - is a number of times you can repeat the print_alphabet function
  */
-void print_alphabet_x10(int veces)
+void print_alphabet_x10()
 {
-	while (veces > 0)
+	int veces = 10;
+	while (i > 0)
 	{
 		print_alphabet();
 		veces--;
