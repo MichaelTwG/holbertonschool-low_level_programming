@@ -1,4 +1,0 @@
-#!/bin/bash
-git add -A
-git commit -m "C - Variables, if, else, while"
-git push
