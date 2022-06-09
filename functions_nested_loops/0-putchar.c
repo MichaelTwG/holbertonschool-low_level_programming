@@ -1,4 +1,3 @@
-#include "putchar.c"
 #include "main.h"
 int main(void)
 {
