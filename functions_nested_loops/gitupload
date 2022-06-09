@@ -1,7 +1,4 @@
 #!/bin/bash
 git add -A
-echo "Type the commit mesaje: "
-
-read com 
-git commit -m "$com"
+git commit -m "Functions in c"
 git push
