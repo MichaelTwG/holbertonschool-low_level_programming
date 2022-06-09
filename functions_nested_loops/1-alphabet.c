@@ -1,6 +1,10 @@
 #include "main.h"
 /**
+ *
+ *
  * print_alphabet display alphabet with a line scape
+ *
+ *
  */
 void print_alphabet(void)
 {
