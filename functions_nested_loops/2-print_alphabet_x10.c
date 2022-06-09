@@ -3,15 +3,15 @@
 /**
  * print_alphabet_x10 - display alphabet for 10 times
  * Return: void
- * @veces - is a number of times you can repeat the print_alphabet function
+ * @i - is a number of times you can repeat the print_alphabet function
  */
 void print_alphabet_x10()
 {
-	int veces = 10;
-	while (i > 0)
+	int i = 0;
+	while (i <= 10)
 	{
 		print_alphabet();
-		veces--;
+		veces++;
 	}
 }
 
