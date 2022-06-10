@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- *
- *
+ * jack_bauer - this function display 24 hours in a format hh:mm
+ * Return: void
  */
 void jack_bauer(void)
 {
-	int i=0 ;
-	int j=0 ;
+	int i = 0;
+	int j = 0;
 
 	for (; i <= 23; i++)
 	{
