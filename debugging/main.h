@@ -2,4 +2,4 @@
 #define MAIN_H
 #include <stdio.h>
 int largest_number(int, int, int)
-#endif /* MAIN_H +/
+#endif /* MAIN_H */
