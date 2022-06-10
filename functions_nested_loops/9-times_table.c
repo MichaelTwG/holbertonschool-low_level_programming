@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- *
- *
+ * times_table - display a multiplication table
+ * Return: void
  */
-void times_table()
+void times_table(void)
 {
 	int i = 0;
 	int j = 0;
 	int k;
 
-	for(; i < 10; i++)
+	for (; i < 10; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
