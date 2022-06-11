@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * print_diagonal - display a diagonal linea of size n
+ * print_square - display a square of the character # of size n
  * Return: void
  * @n: number of times the character is repeated
- *
  */
-void print_diagonal(int n)
+void print_square(int n)
 {
 	int i;
 	int j;
+
 	if (n == 0 || n < 0)
 	{
 		_putchar(10);
@@ -18,14 +18,7 @@ void print_diagonal(int n)
 	{
 		for (j = 0; j < n; j++)
 		{
-			if (j == i)
-			{
-				_putchar(92);
-			}
-			else
-			{
-				_putchar(' ');
-			}
+			_putchar('#');
 		}
 		_putchar(10);
 	}
