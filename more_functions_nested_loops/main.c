@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	print_triangle(10);
+	fizz_buzz();
 	return (0);
 }
