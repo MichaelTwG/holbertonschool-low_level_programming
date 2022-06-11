@@ -2,7 +2,7 @@
 /**
  * print_square - display a square of the character # of size n
  * Return: void
- * @n: number of times the character is repeated
+ * @n: size of the square
  */
 void print_square(int n)
 {
