@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_triangle - display a diagonal linea of size n
+ * print_triangle - display a triangle of size n
  * Return: void
  * @n: size of the triangle
  *
