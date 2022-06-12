@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *
- *
- *
+ * fizz_buzz - display fizz - buzz or fizzbuzz
+ * Return: void
+ * @n: is a number from 1 to 3
  */
-void fizz_buzz (int n)
+void fizz_buzz(int n)
 {
 	if (n == 3)
 	{
@@ -21,7 +21,7 @@ void fizz_buzz (int n)
 }
 /**
  * main - print a number from 1 to 100.
- * Retrun: always 1.
+ * Return: Always 0.
  */
 int main(void)
 {
