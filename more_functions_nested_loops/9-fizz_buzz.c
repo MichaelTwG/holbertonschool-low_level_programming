@@ -12,11 +12,11 @@ void fizz_buzz(int n)
 	}
 	if (n == 2)
 	{
-		printf("Fizz");
+		printf("Buzz");
 	}
 	if (n == 1)
 	{
-		printf("Buzz");
+		printf("Fizz");
 	}
 }
 /**
