@@ -1,61 +1,32 @@
+#include "main.h"
 #include "_putchar.c"
+#include "fizz_buzz.c"
+#include "_putchar_number.c"
 /**
- * 
+ * main - print a number from 1 to 100.
+ * Retrun: always 1.
  */
 int main(void)
 {
-	int i = 1;
-	int j;
-	int num;
-	char F[5] = "Fizz";
-	char B[5] = "Buzz";
+	int i;
 
-	for (; i <= 100; i++)
+	for (i = 1; i <= 100)
 	{
-		num = i;
-
-		if ((num % 15) == 0)
+		if ((i % 15) == 0)
 		{
-			for (j = 0; j < 5; j++)
-			{
-				_putchar(F[j]);
-			}
-			for (j = 0; j < 5; j++)
-			{
-				_putchar(B[j]);
-			}
+			fizz_buzz(3);
 		}
-		else if ((num % 3) == 0)
+		else if ((i % 5) == 0)
 		{
-			for (j = 0; j < 5; j++)
-			{
-				_putchar(F[j]);
-			}
+			fizz_buzz(2);
 		}
-		else if ((num % 5) == 0)
+		else if ((i % 3) == 0)
 		{
-			for (j = 0; j <5; j++)
-			{
-				_putchar(B[j]);
-			}
+			fizz_buzz(1);
 		}
 		else
 		{
-			if (i >= 10 && i <= 99)
-			{
-				_putchar((i / 10) + 48);
-				_putchar((i % 10) + 48);
-			}
-			else if (i == 100)
-			{
-				_putchar(49);
-				_putchar(48);
-				_putchar(48);
-			}
-			else 
-			{
-				_putchar(i + 48);
-			}
+			_putchar_number(i);
 		}
 		_putchar(' ');
 	}
