@@ -1,7 +1,24 @@
 #include "main.h"
-#include "_putchar.c"
-#include "fizz_buzz.c"
-#include "_putchar_number.c"
+/**
+ *
+ *
+ *
+ */
+void fizz_buzz (int n)
+{
+	if (n == 3)
+	{
+		printf("FizzBuzz");
+	}
+	if (n == 2)
+	{
+		printf("Fizz");
+	}
+	if (n == 1)
+	{
+		printf("Buzz");
+	}
+}
 /**
  * main - print a number from 1 to 100.
  * Retrun: always 1.
@@ -26,7 +43,7 @@ int main(void)
 		}
 		else
 		{
-			_putchar_number(i);
+			printf("%d", i)
 		}
 		_putchar(' ');
 	}
