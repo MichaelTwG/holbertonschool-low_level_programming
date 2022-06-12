@@ -45,7 +45,7 @@ int main(void)
 		{
 			printf("%d", i);
 		}
-		_putchar(' ');
+		printf(" ");
 	}
 	return (0);
 }
