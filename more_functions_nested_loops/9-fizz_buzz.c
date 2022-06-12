@@ -32,20 +32,24 @@ int main(void)
 		if ((i % 15) == 0)
 		{
 			fizz_buzz(3);
+			printf(" ");
 		}
 		else if ((i % 5) == 0)
 		{
 			fizz_buzz(2);
+			printf(" ");
 		}
 		else if ((i % 3) == 0)
 		{
 			fizz_buzz(1);
+			printf(" ");
 		}
 		else
 		{
 			printf("%d", i);
+			printf(" ");
 		}
-		printf(" ");
 	}
+	printf("\n");
 	return (0);
 }
