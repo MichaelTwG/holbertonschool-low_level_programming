@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * rev_string -
- * @s:
+ * rev_string - get a addres of am string and rev the value
+ * exaple, rev "Hola" to "aloH".
+ * @s: is an memory addres of a string.
  */
 void rev_string(char *s)
 {
@@ -16,7 +17,7 @@ void rev_string(char *s)
 		count++;
 	}
 	count--;
-	for (i = 0; 0 <= count; count--)
+	for (i = 0; count >= 0; count--)
 	{
 		value = saux[count];
 		s[i] = value;
