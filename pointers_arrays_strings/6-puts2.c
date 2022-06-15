@@ -4,9 +4,9 @@
  */
 void puts2(char *str);
 {
-	int i = 0;
+	int i;
 
-	for (; str[i]; i++)
+	for (i = 0; str[i]; i++)
 	{
 		if ((str[i] % 2) == 0)
 		{
