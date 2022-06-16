@@ -3,12 +3,13 @@
  * _strcpy - copy the string src to string dest
  * @dest: destine string
  * @src: source string
+ * Return: te porinter to dest
  */
 char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	for (i = 0; src[i] != '\0'; i++)
+	for (i = 0; src[i] ; i++)
 	{
 		dest[i] = src[i];
 	}
