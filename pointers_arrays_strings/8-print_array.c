@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *
- *
+ * print_array - display n element of an array separated with " ,"
+ * @a: point to an array
+ * @n: number of element to display
  */
 void print_array(int *a, int n)
 {
