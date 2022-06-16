@@ -11,12 +11,12 @@ void puts_half(char *str)
 	for (lenght = 0; str[lenght] != '\0'; lenght++)
 	{
 	}
-	if ((lenght % 2) != 0)
+	for (f_half = lenght / 2; f_half <= lenght; f_half++)
 	{
-		lenght--;
-	}
-	for (f_half = lenght / 2; f_half < lenght; f_half++)
-	{
+		if ((lenght % 2) != 0)
+		{
+			f_half--;
+		}
 		_putchar(str[f_half]);
 	}
 	_putchar(10);
