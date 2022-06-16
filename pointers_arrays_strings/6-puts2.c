@@ -13,10 +13,6 @@ void puts2(char *str)
 		{
 			_putchar(str[i]);
 		}
-		else
-		{
-			i++;
-		}
 	}
 	_putchar(10);
 }
