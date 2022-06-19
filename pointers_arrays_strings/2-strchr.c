@@ -3,17 +3,21 @@
  * _strchr - find a character in a string
  * @s: the string to search for
  * @c: the character to find
- * Return: 
+ * Return: s if s == c, or null if they don't match
  */
 char *_strchr(char *s, char c)
 {
 
 	for (; *s ; s++)
 	{
-		if (*s == c)
+		if (*s == '\0')
+		{
+			return (NULL);
+		}
+		else if (*s == c)
 		{
 			return (s);
 		}
 	}
-	return NULL;
+	return (NULL);
 }
