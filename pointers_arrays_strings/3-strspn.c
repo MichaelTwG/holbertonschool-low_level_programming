@@ -3,7 +3,7 @@
  * _strspn - gets the length of a prefix substring
  * @s: the string to be scanned
  * @accept: sring containing the characters to match.
- * Rettrutn: Number of character in s which consist only
+ * Return: Number of character in s which consist only
  * of characters from accept
  */
 unsigned int _strspn(char *s, char *accept)
