@@ -1,16 +1,18 @@
-#include "main.h"
+#include <stdio.h>
+
+char *_strchr(char *, char);
+
 /**
- * main - check the code
+ * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
+	char *s = "First, solve the problem. Then, write the code.";
+	char *f;
 
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
+	f = _strchr(s, '\0');
+	printf("%s\n", (f == NULL ? "nill" : f));
+	return (0);
 }
