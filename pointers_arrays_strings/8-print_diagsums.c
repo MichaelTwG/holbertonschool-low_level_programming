@@ -4,7 +4,7 @@
  * @a: a 2D array
  * @size: the size of the 2D array
  */
-void print_diagsums(int *a, int size)
+void print_diagsums(int (*a), int size)
 {
 	int i, j, sum1 = 0, sum2 = 0;
 
