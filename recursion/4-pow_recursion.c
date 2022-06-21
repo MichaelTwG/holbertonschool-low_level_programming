@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- *
- *
+ * _pow_recursion - x reaised y
+ * @x: the num to be raised
+ * @y: the exponent
+ * Return: x raised y
  */
 int _pow_recursion(int x, int y)
 {
