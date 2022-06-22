@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
+ * create_arrat - create an string using malloc
+ * @size: the size of the string
+ * @c: a char which fill the string
  */
 char *create_array(unsigned int size, char c)
 {
@@ -13,7 +13,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (0);
 	}
-	str = malloc (size * sizeof(char));
+	str = malloc(size * sizeof(char));
 	if (str == NULL)
 	{
 		return (0);
