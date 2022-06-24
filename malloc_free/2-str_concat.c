@@ -34,8 +34,9 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (j = 0; s2[j]; j++)
 	{
-		st[i] = st[j];
+		st[i] = s2[j];
 		i++;
 	}
+	st[i] = '\0';
 	return (st);
 }
