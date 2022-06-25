@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * array_range - 
- * @min -
- * @max -
- * Return:
+ * array_range - create an array of integers
+ * @min: is the min number of the array
+ * @max: is the max number of the array
+ * Return: a pointer to the new array
  */
 int *array_range(int min, int max)
 {
@@ -12,7 +12,7 @@ int *array_range(int min, int max)
 
 	if (min > max)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	j = max - min + 1;
 	arr = malloc(sizeof(int) * j);
@@ -22,5 +22,5 @@ int *array_range(int min, int max)
 	{
 		arr[i] = min + i;
 	}
-	return(arr);
+	return (arr);
 }
