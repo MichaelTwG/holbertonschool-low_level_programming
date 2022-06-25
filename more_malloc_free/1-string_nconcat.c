@@ -34,10 +34,11 @@ char *string_nconcat(char *str1, char *str2, unsigned int n)
 	{
 		strT[i] = str1[i];
 	}
-	for (j = 0; j <= n; j++)
+	for (j = 0; j < n; j++)
 	{
 		strT[i] = str2[j];
 		i++;
 	}
+	strT[i] = '\0';
 	return (strT);
 }
