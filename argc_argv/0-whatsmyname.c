@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 /**
  * main - print the name of the program
  * @argc: is unused with (void)argc
