@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - add numbers 
+ * main - add numbers
  * @argc: the numbers of arguments
  * @argv: the arguments
  * Return: 1 in case of errot, else 0
