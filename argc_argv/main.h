@@ -3,4 +3,5 @@
 int _putchar(char);
 #include <stdlib.h>
 #include <stdio.h>
+#include <ctype.h>
 #endif
