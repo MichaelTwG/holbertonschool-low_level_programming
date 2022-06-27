@@ -1,18 +1,15 @@
 #include "main.h"
 #include "_putchar.c"
 /**
- * main -
- * @argc:
- * @argv:
+ * main - print the name of the program
+ * @argc: is unused with (void)argc
+ * @argv: is used the position 0 containing the app name
+ * Return: always 0.
  */
 int main(int argc, char *argv[])
 {
-	int i;
 	(void)argc;
-
-	for(i = 0; argv[0][i]; i++)
-	{
-		_putchar(argv[0][i]);
-	}
-	return(1);
+	
+	printf("%s\n", argv[0]);
+	return(0);
 }
