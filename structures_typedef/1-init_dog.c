@@ -4,13 +4,13 @@
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
+ * d->name || (*d).name
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	// d->name || (*d).name
 	int i;
 
-	if (d == NULL)
+	if (d == 0)
 		exit(0);
 
 	(*d).age = age;
