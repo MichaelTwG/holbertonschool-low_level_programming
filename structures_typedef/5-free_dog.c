@@ -1,7 +1,7 @@
 #include "dog.h"
 /**
- *
- *
+ * free_dog - free a dog
+ * @dog: is a dog
  */
 void free_dog(dog_t *dog)
 {
