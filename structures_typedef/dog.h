@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 #include <stdio.h>
-#include <strin.h>
+#include <string.h>
 #include <stdlib.h>
 /**
  * struct dog - name, age, owner of the dog
