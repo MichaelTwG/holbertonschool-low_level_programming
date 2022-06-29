@@ -1,7 +1,17 @@
 #include "dog.h"
+#include <stdlib.h>
 /**
+ * new_dog - create a new dof
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
+ * Return: a new dog
  *
- *
+ * Decriprion: Create a new struct called Ndog, a new pointers called
+ * cp_nam and cp_own.
+ * using the function malloc to sorage the memory of a struct of tipe dog_t
+ * then store in memory a space for the cp_nam and cp_own
+ * and make a copy of name and owner
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -42,5 +52,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 	Ndog->age = age;
 	Ndog->owner = cp_own;
 
-	return(Ndog);
+	return (Ndog);
 }
