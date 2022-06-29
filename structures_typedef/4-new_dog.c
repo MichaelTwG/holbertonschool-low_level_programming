@@ -1,5 +1,4 @@
 #include "dog.h"
-#include <stdlib.h>
 /**
  * new_dog - create a new dof
  * @name: name of the dog
@@ -44,7 +43,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	for (i = 0; owner[i]; i++)
 	{
-		cp_own[i] = owner[i]
+		cp_own[i] = owner[i];
 	}
 	cp_own[i] = 0;
 
