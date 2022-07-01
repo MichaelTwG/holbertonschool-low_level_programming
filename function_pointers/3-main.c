@@ -3,7 +3,7 @@
  * main - main function
  * @argc: the length of argv
  * @argv: the array containing the argument passed in the terminal
- * Return: 0 
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	}
 	a = atoi(argv[1]);
 	a = atoi(argv[3]);
-	if (argv[2][1] != '\0' || get_op_gunc(argv[2]) == NULL)
+	if (argv[2][1] != '\0' || get_op_func(argv[2]) == NULL)
 		{
 			printf("Error\n");
 			exit(99);
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(100);
 	}
-	res = *(get_op_func(argv[2]))(a, b);
+	res = (*(get_op_func(argv[2])))(a, b);
 	printf("%d\n", res);
 	return (0);
 }
