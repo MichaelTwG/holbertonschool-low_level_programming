@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	print_all("ci", 'B', 3);
+	print_all("s","HOLA");
 	return (0);
 }

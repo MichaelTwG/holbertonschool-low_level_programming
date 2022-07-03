@@ -11,7 +11,7 @@ void print_all(const char * const format, ...);
 
 typedef struct ops
 {
-	char * op;
-	void (*f)(int n, int pa, ...);
+	char op;
+	void (*f)(va_list arg);
 } op_t;
 #endif
