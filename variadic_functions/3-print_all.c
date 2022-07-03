@@ -46,6 +46,7 @@ void print_float(va_list arg)
 void print_all(const char * const format, ...)
 {
 	int i = 0, j = 0;
+	char * s = "";
 	va_list args;
 
 	op_t ops[] = {
@@ -65,11 +66,9 @@ void print_all(const char * const format, ...)
 		{
 			if (format[i] == ops[j].op)
 			{
+				printf("%s", s);
 				ops[j].f(args);
-				if (format[(i + 1)] != '\0')
-				{
-					printf(", ");
-				}
+				s = ", ";
 			}
 			j++;
 		}
