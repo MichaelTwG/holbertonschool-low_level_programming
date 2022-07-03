@@ -54,7 +54,7 @@ void print_all(const char * const format, ...)
 		{'i', print_int},
 		{'s', print_string},
 		{'f', print_float},
-		{0, NULL},
+		{'\0', NULL},
 	};
 
 	va_start(args, format);
@@ -62,7 +62,7 @@ void print_all(const char * const format, ...)
 	while (format[i] != '\0' && format != NULL)
 	{
 		j = 0;
-		while (ops[j].op != 0)
+		while (ops[j].op != '\0')
 		{
 			if (format[i] == ops[j].op)
 			{
