@@ -1,0 +1,4 @@
+CC=gcc
+CFLAGS=-Wall -pedantic -Werror Wextra -std=gnu89
+all: $(SRC)
+$(CC) $(CFLAGS )$(SRC )-o school
