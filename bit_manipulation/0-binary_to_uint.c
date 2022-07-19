@@ -25,22 +25,25 @@ unsigned int raise(unsigned int x, unsigned int y)
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int result = 0, i = (strlen(b) - 1), j = 0;
+	unsigned int result = 0, i, j = 0;
 
 	if (!b)
 	{
 		return (0);
 	}
-		for (; b[j]; i--, j++)
+
+	i = strlen(b) - 1;
+
+	for (; b[j]; i--, j++)
+	{
+		if (b[j] != '1' && b[j] != '0')
 		{
-			if (b[j] != '1' && b[j] != '0')
-			{
-				return (0);
-			}
-			if (b[j] == '1')
-			{
-				result += raise(2, i);
-			}
+			return (0);
 		}
+		if (b[j] == '1')
+		{
+			result += raise(2, i);
+		}
+	}
 	return (result);
 }
